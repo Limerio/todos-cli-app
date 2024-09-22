@@ -28,8 +28,10 @@ The goal of this project is to create a todos cli app in [Go](https://go.dev) to
   - [x] If no format argument provided open a TUI with huh to choose the format.
 - [x] Create a `remove` command (Delete a todo with his id).
   - [x] Add a confirm TUI interface.
+  - [ ] Add a force flag
 - [x] Create the `reset` command (Delete the database).
   - [x] Add a confirm TUI interface.
+  - [ ] Add a force flag
 - [x] Create a better error handling.
 - [x] Create tests.
 - [x] Create a Makefile.
