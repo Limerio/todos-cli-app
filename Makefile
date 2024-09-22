@@ -4,5 +4,8 @@ build:
 test:
 	go test ./...
 
+fmt:
+	go fmt ./...
+
 clean:
 	rm ./todos
