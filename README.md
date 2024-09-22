@@ -33,3 +33,4 @@ The goal of this project is to create a todos cli app in [Go](https://go.dev) to
 - [x] Create a better error handling.
 - [x] Create tests.
 - [x] Create a Makefile.
+- [x] Add Github Actions
