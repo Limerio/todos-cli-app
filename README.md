@@ -27,9 +27,9 @@ The goal of this project is to create a todos cli app in [Go](https://go.dev) to
   - [x] Export in CSV.
   - [x] If no format argument provided open a TUI with huh to choose the format.
 - [x] Create a `remove` command (Delete a todo with his id).
-  - [ ] Add a confirm TUI interface.
+  - [x] Add a confirm TUI interface.
 - [x] Create the `reset` command (Delete the database).
-  - [ ] Add a confirm TUI interface.
+  - [x] Add a confirm TUI interface.
 - [x] Create a better error handling.
 - [x] Create tests.
 - [x] Create a Makefile.
