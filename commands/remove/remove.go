@@ -4,6 +4,7 @@ import (
 	"fmt"
 
 	"github.com/Limerio/go-training/todos-cli-app/db"
+	"github.com/charmbracelet/huh"
 	"github.com/spf13/cobra"
 )
 
@@ -22,6 +23,20 @@ func Cmd() *cobra.Command {
 
 			if err != nil {
 				fmt.Fprintln(cmd.ErrOrStderr(), TODO_CANNOT_FIND_ID)
+
+				return
+			}
+
+			var confirm bool
+
+			huh.NewConfirm().
+				Title("Are you sure?").
+				Affirmative("Yes!").
+				Negative("No.").
+				Value(&confirm).Run()
+
+			if !confirm {
+				fmt.Fprintln(cmd.ErrOrStderr(), TODO_DELETE_CANCEL)
 
 				return
 			}

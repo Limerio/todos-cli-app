@@ -5,6 +5,7 @@ import (
 	"os"
 
 	"github.com/Limerio/go-training/todos-cli-app/utils"
+	"github.com/charmbracelet/huh"
 	"github.com/spf13/cobra"
 )
 
@@ -17,6 +18,20 @@ func Cmd() *cobra.Command {
 			_, err := os.OpenFile(utils.STORE_FILE, os.O_RDONLY, 0644)
 			if err != nil {
 				fmt.Fprintln(cmd.ErrOrStderr(), STORE_ALREADY_RESET)
+
+				return
+			}
+
+			var confirm bool
+
+			huh.NewConfirm().
+				Title("Are you sure?").
+				Affirmative("Yes!").
+				Negative("No.").
+				Value(&confirm).Run()
+
+			if !confirm {
+				fmt.Fprintln(cmd.ErrOrStderr(), STORE_RESET_CANCEL)
 
 				return
 			}
