@@ -3,3 +3,6 @@ build:
 
 test:
 	go test ./...
+
+clean:
+	rm ./todos
