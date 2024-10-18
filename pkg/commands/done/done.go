@@ -3,8 +3,8 @@ package done
 import (
 	"fmt"
 
-	"github.com/Limerio/todos-cli-app/db"
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/db"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 	"github.com/spf13/cobra"
 )
 

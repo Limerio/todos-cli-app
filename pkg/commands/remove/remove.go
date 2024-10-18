@@ -3,7 +3,7 @@ package remove
 import (
 	"fmt"
 
-	"github.com/Limerio/todos-cli-app/db"
+	"github.com/Limerio/todos-cli-app/pkg/db"
 	"github.com/charmbracelet/huh"
 	"github.com/spf13/cobra"
 )

@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"strings"
 
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 	_ "github.com/mattn/go-sqlite3"
 )
 

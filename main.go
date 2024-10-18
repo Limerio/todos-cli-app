@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/Limerio/todos-cli-app/commands"
+	"github.com/Limerio/todos-cli-app/pkg/commands"
 )
 
 func main() {

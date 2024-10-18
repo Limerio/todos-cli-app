@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Limerio/todos-cli-app/commands/remove"
-	"github.com/Limerio/todos-cli-app/db"
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/commands/remove"
+	"github.com/Limerio/todos-cli-app/pkg/db"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 )
 
 func TestRemoveCmd_ExecuteWithSuccess(t *testing.T) {

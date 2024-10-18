@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Limerio/todos-cli-app/commands/create"
-	"github.com/Limerio/todos-cli-app/db"
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/commands/create"
+	"github.com/Limerio/todos-cli-app/pkg/db"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 )
 
 func TestCreateCmd_ExecuteWithSuccess(t *testing.T) {

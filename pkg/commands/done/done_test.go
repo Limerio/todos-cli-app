@@ -7,9 +7,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Limerio/todos-cli-app/commands/done"
-	"github.com/Limerio/todos-cli-app/db"
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/commands/done"
+	"github.com/Limerio/todos-cli-app/pkg/db"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 )
 
 func TestDoneCmd_ExecuteWithSuccess(t *testing.T) {

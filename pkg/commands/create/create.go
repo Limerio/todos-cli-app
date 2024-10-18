@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/Limerio/todos-cli-app/db"
+	"github.com/Limerio/todos-cli-app/pkg/db"
 	_ "github.com/mattn/go-sqlite3"
 	"github.com/spf13/cobra"
 )

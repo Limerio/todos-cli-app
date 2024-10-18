@@ -3,7 +3,7 @@ package db
 import (
 	"database/sql"
 
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 )
 
 func Init() error {

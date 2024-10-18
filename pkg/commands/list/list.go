@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Limerio/todos-cli-app/db"
-	"github.com/Limerio/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/pkg/db"
+	"github.com/Limerio/todos-cli-app/pkg/utils"
 	"github.com/mergestat/timediff"
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
