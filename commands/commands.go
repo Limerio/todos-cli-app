@@ -4,13 +4,13 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Limerio/go-training/todos-cli-app/commands/add"
-	"github.com/Limerio/go-training/todos-cli-app/commands/create"
-	"github.com/Limerio/go-training/todos-cli-app/commands/done"
-	"github.com/Limerio/go-training/todos-cli-app/commands/export"
-	"github.com/Limerio/go-training/todos-cli-app/commands/list"
-	"github.com/Limerio/go-training/todos-cli-app/commands/remove"
-	"github.com/Limerio/go-training/todos-cli-app/commands/reset"
+	"github.com/Limerio/todos-cli-app/commands/add"
+	"github.com/Limerio/todos-cli-app/commands/create"
+	"github.com/Limerio/todos-cli-app/commands/done"
+	"github.com/Limerio/todos-cli-app/commands/export"
+	"github.com/Limerio/todos-cli-app/commands/list"
+	"github.com/Limerio/todos-cli-app/commands/remove"
+	"github.com/Limerio/todos-cli-app/commands/reset"
 	"github.com/spf13/cobra"
 )
 

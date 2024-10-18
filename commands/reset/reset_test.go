@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Limerio/go-training/todos-cli-app/commands/reset"
-	"github.com/Limerio/go-training/todos-cli-app/db"
+	"github.com/Limerio/todos-cli-app/commands/reset"
+	"github.com/Limerio/todos-cli-app/db"
 )
 
 func TestResetCmd_ExecuteWithSuccess(t *testing.T) {

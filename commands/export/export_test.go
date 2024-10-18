@@ -6,9 +6,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/Limerio/go-training/todos-cli-app/commands/export"
-	"github.com/Limerio/go-training/todos-cli-app/db"
-	"github.com/Limerio/go-training/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/commands/export"
+	"github.com/Limerio/todos-cli-app/db"
+	"github.com/Limerio/todos-cli-app/utils"
 )
 
 func TestExportCmd_ExecuteWithSuccess_Csv(t *testing.T) {

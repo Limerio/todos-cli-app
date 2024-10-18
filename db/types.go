@@ -3,7 +3,7 @@ package db
 import (
 	"time"
 
-	"github.com/Limerio/go-training/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/utils"
 )
 
 type Todo struct {

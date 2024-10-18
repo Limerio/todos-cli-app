@@ -1,4 +1,4 @@
-module github.com/Limerio/go-training/todos-cli-app
+module github.com/Limerio/todos-cli-app
 
 go 1.23.1
 

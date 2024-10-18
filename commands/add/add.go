@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/Limerio/go-training/todos-cli-app/db"
+	"github.com/Limerio/todos-cli-app/db"
 	"github.com/spf13/cobra"
 )
 

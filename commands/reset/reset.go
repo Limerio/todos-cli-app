@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/Limerio/go-training/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/utils"
 	"github.com/charmbracelet/huh"
 	"github.com/spf13/cobra"
 )

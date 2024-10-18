@@ -4,7 +4,7 @@ import (
 	"database/sql"
 	"time"
 
-	"github.com/Limerio/go-training/todos-cli-app/utils"
+	"github.com/Limerio/todos-cli-app/utils"
 	_ "github.com/mattn/go-sqlite3"
 )
 
